@@ -1,3 +1,4 @@
-.jumbotron {
-  height: 100vh;
+.widget-container {
+  height: 85vh;
+  background-color:grey;
 }
