@@ -18,13 +18,13 @@
       <nav class="navbar navbar-default">
         <div class="container-fluid">
           <div class="navbar-header">
-            <button type="button" ng-click="add_widget('message_widget')" class="btn btn-default navbar-btn">Add Message Widget</button>
+            <button type="button" ng-click="add_widget('MessageWidgetController')" class="btn btn-default navbar-btn">Add Message Widget</button>
             <a class="navbar-brand" href="/">PHP Desklet</a>
           </div>
         </div>
       </nav>
       <div class="container">
-        <div class="widget-container col-md-12"></div>
+        <div class="widget-container col-md-12" ng-bind-html="widget_container"></div>
       </div>
     </div>
 

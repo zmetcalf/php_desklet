@@ -1,4 +1,6 @@
-desklet_app.controller('MainController',
+desklet_app.controller('MainController', [ '$scope',
   function($scope) {
-    // Silence is golden
-  });
+    $scope.add_widget = function(widget) {
+
+    };
+  }]);

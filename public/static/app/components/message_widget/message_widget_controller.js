@@ -1,4 +1,4 @@
-desklet_app.controller('MessageWidgetController', function($scope){
-  console.log('MessageWidgetController called');
+desklet_app.controller('MessageWidgetController', [ '$scope',
+  function($scope) {
 
-});
+  }]);
