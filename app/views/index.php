@@ -14,8 +14,8 @@
 
   </head>
   <body ng-app="desklet_app">
-    <div ng-controller="MainController">
-      <nav class="navbar navbar-default">
+    <div>
+      <nav class="navbar navbar-default" ng-controller="MenuCtrl">
         <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" ng-click="add_widget('MessageWidgetController')" class="btn btn-default navbar-btn">Add Message Widget</button>
@@ -36,7 +36,5 @@
 
     <!-- Local JS -->
     <script type="text/javascript" src="static/app/app.module.js"></script>
-    <script type="text/javascript" src="static/app/shared/main/main_controller.js"></script>
-    <script type="text/javascript" src="static/app/components/message_widget/message_widget_directive.js"></script>
-    <script type="text/javascript" src="static/app/components/message_widget/message_widget_controller.js"></script>
+    <script type="text/javascript" src="static/app/components/widgets/widgets_controllers.js"></script>
 </html>
